@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1668083357 source:c:\users\ivanb\desktop\tpfinal\arbol.c
+	"arbol.h"
+	"structura.h"
+
+1668083357 c:\users\ivanb\desktop\tpfinal\arbol.h
+	"structura.h"
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1668083357 c:\users\ivanb\desktop\tpfinal\structura.h
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1668083357 source:c:\users\ivanb\desktop\tpfinal\celda.c
+	"celda.h"
+
+1668003440 c:\users\ivanb\desktop\tpfinal\celda.h
+	"arbol.h"
+
+1667301304 source:c:\users\ivanb\desktop\tpfinal\filapeli.c
+
+1667301330 source:c:\users\ivanb\desktop\tpfinal\listausuario.c
+
+1668224156 source:c:\users\ivanb\desktop\tpfinal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"structura.h"
+	"arbol.h"
+	"filapeli.h"
+
+1667301034 c:\users\ivanb\desktop\tpfinal\filapeli.h
+	"structura.h"
+
+1667920740 source:c:\users\ivanb\desktop\tpfinal\structura.c
+	"structura.h"
+	"arbol.h"
+
+1668461247 source:c:\users\franc\desktop\tpfinal\arbol.c
+	"arbol.h"
+	"structura.h"
+
+1668065356 c:\users\franc\desktop\tpfinal\arbol.h
+	"structura.h"
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1668065356 c:\users\franc\desktop\tpfinal\structura.h
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1668065356 source:c:\users\franc\desktop\tpfinal\celda.c
+	"celda.h"
+
+1667985440 c:\users\franc\desktop\tpfinal\celda.h
+	"arbol.h"
+
+1667286904 source:c:\users\franc\desktop\tpfinal\filapeli.c
+
+1667286930 source:c:\users\franc\desktop\tpfinal\listausuario.c
+
+1668461246 source:c:\users\franc\desktop\tpfinal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"structura.h"
+	"arbol.h"
+	"filapeli.h"
+
+1667286634 c:\users\franc\desktop\tpfinal\filapeli.h
+	"structura.h"
+
+1667902740 source:c:\users\franc\desktop\tpfinal\structura.c
+	"structura.h"
+	"arbol.h"
+
