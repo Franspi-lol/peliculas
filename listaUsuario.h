@@ -11,6 +11,7 @@ typedef struct
 typedef struct
 {
     struct nodoUsuario* sig;
+    struct nodoUsuario* ante;
     Usuario usu;
     filarepro lista;
 
