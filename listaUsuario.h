@@ -12,7 +12,7 @@ typedef struct
 {
     struct nodoUsuario* sig;
     Usuario usu;
-    filarepro* lista;
+    filarepro lista;
 
 }nodoUsuario;
 
