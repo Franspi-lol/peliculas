@@ -106,3 +106,14 @@ void MostrarArbol (nodoArbol* Raiz)
     }
 
 }
+
+
+int darIdPelicula (int id)
+{
+    FILE* archi = fopen("idpelicula.dat", "a+b");
+    if (archi!=NULL)
+    {
+
+    }
+}
+
