@@ -1,18 +1,26 @@
 #ifndef FILAPELI_H_INCLUDED
 #define FILAPELI_H_INCLUDED
 #include "structura.h"
+//#include "listaUsuario.h"
 typedef struct
 {
-    struct nodoLista* sig;
+    struct nodoFilaa* sig;
     pelicula dato;
 
-}nodoLista;
+}nodoFila;
 
 typedef struct
 {
-    struct nodoLista* cabecera;
-    struct nodoLista* cola;
+    struct nodoFila* cabecera;
+    struct nodoFila* cola;
 
 }filarepro;
+
+filarepro inicfilareproduccion();
+nodoFila* inicnodoFila ();
+nodoFila* crearNodoFila(pelicula seleccionada);
+void agregaraFila(filarepro* fila, pelicula agregar);
+nodoFila* agregarFinalFila (nodoFila* lista, nodoFila* nuevonodo);
+nodoFila* buscarUltimoFila (nodoFila* lista);
 
 #endif // FILAPELI_H_INCLUDED
