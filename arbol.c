@@ -105,6 +105,7 @@ nodoArbol* BuscaPelicula( nodoArbol* Raiz, int id)/// Usar
 }
 
 
+
 //int CuentaPeliculas(nodoArbol* Raiz)
 //{
 //    int cont=0;
@@ -201,6 +202,3 @@ nodoArbol * borrarNodoPelicula(nodoArbol * nodo, int id)
     }
     return nodo;
 }
-
-
-
