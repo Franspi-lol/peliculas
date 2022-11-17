@@ -18,6 +18,11 @@ nodoArbol* crearNodoArbol (pelicula dato);
 nodoArbol* Insertar (nodoArbol* Raiz, pelicula dato);
 nodoArbol* CargarVariasPeliculas (nodoArbol* Raiz);
 void MostrarArbol (nodoArbol* Raiz);
+nodoArbol* BuscaPelicula( nodoArbol* Raiz, int id);
+int CuentaPeliculas(nodoArbol* Raiz);
+nodoArbol * NMD (nodoArbol * nodo);
+nodoArbol * NMI (nodoArbol * nodo);
+nodoArbol * borrarNodoPelicula(nodoArbol * nodo, int id);
 
 
 #endif // ARBOL_H_INCLUDED
