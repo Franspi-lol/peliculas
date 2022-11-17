@@ -68,12 +68,15 @@ nodoUsuario* cargarFilaAUSU (nodoUsuario* lista, char nombre[], nodoArbol* Raiz,
 
 }
 
-pelicula* elejirPelicula (nodoArbol* Raiz, celda ada[], int validos)
+pelicula elejirPelicula (nodoArbol* Raiz, celda ada[], int validos)
 {
+    pelicula retornada;
     int id=-1;
     MostrarArregloPeliculas(ada, validos);
     printf("\nSelecciona ID de la pelicula: ");
     scanf("%d", &id);
-
+    retornada=buscarPeliculaArreglo(ada, validos, id);
+    return retornada;
 
 }
+
