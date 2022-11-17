@@ -64,7 +64,10 @@ nodoUsuario* buscarUsuarioPorNombre (nodoUsuario* lista, char nombre[])
 
 nodoUsuario* cargarFilaAUSU (nodoUsuario* lista, char nombre[], nodoArbol* Raiz, celda ada[], int validos)
 {
-    //nodoUsuario* usuario = buscarUsuarioPorNombre(lista, nombre);
+    nodoUsuario* usuario = buscarUsuarioPorNombre(lista, nombre);
+    pelicula aCargar = elejirPelicula(Raiz, ada, validos);
+    usuario->lista=agregaraFila(usuario->lista,aCargar);
+    return usuario;
 
 }
 
@@ -79,4 +82,3 @@ pelicula elejirPelicula (nodoArbol* Raiz, celda ada[], int validos)
     return retornada;
 
 }
-
