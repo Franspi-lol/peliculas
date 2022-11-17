@@ -82,6 +82,12 @@ void MostrarArregloPeliculas(celda ada[],int validos)
         i++;
 
     }
+    if (validos==0)
+        {
+
+            printf(" \n El catalogo de peliculas esta vacio");
+
+        }
 
 }
 
@@ -99,9 +105,53 @@ pelicula buscarPeliculaArreglo (celda ada[], int validos, int id)
             rta=aux;
         }
     }
-    return aux;
+    return rta->dato;
 
 }
 
+void MostrarArregloPeliculasxGenero(celda ada[],int genero,int validos)
+{
+    int i=0;
+
+    int pos=BuscarPosGenero;
 
 
+    if(pos==-1)
+    {
+        printf("\n No se encuentran Peliculas de dicho genero.\n");
+
+
+    }
+    else
+    {
+        printf("\n ");
+        printf("---------------------------");
+        MostrarGenero(ada[pos].Raiz->dato.genero);
+        MostrarArbol(ada[pos].Raiz);
+        printf("\n");
+        printf("---------------------------");
+        printf("\n ");
+
+    }
+
+
+}
+
+nodoArbol* borrarPeliculaArreglo (celda ada[], int validos, int id)
+{
+    nodoArbol* aux=NULL;
+    nodoArbol* rta=NULL;
+    int contador=0;
+    while (contador<validos)
+    {
+        aux=BuscaPelicula(ada[contador].Raiz, id);
+        contador++;
+        if(aux->dato.id==id)
+        {
+            rta=aux;
+            rta->dato.estado=0;
+        }
+    }
+    return rta;
+
+}

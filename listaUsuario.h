@@ -25,7 +25,9 @@ nodoUsuario* crearNodoUsuario(Usuario nuevo);
 
 nodoUsuario* agregarFinal (nodoUsuario* lista, nodoUsuario* nuevonodo);
 nodoUsuario* buscarUltimo (nodoUsuario* lista);
-nodoUsuario* cargarFilaAUSU (nodoUsuario* lista, char nombre[], nodoArbol* Raiz, celda ada[], int validos);
-pelicula elejirPelicula (nodoArbol* Raiz, celda ada[], int validos);
+nodoUsuario* cargarFilaAUSU (nodoUsuario* lista, char nombre[], celda ada[], int validos);
+pelicula elejirPelicula (celda ada[], int validos);
+Usuario datosUsuario ();
+char ingresarNombreUsuario ();
 
 #endif // LISTAUSUARIO_H_INCLUDED

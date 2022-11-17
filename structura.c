@@ -10,6 +10,22 @@
 //}
 
 
+//int retornarCantidadId (celda ada[],int validos)
+//{
+//    int i=0;
+//    int contador=0;
+//
+//    if (i<validos)
+//    {
+//
+//        contador=contador+CuentaPeliculas(ada[i].Raiz);
+//        i++;
+//    }
+//
+//    return contador;
+//
+//}
+
 pelicula cargarPelicula()///No recibir ID por Parametro
 {
 //    int id;
@@ -31,8 +47,12 @@ pelicula cargarPelicula()///No recibir ID por Parametro
 //    printf(" \n Ingrese id de la pelicula : ");
 //    scanf("%i",&aCargar.id);
     aCargar.id=retornarIDPeliculadesdeArchivo();
+
     return aCargar;
 }
+
+
+
 
 void listaGeneros()
 {
@@ -131,4 +151,6 @@ int retornarIDPeliculadesdeArchivo ()
     }
     return id;
 }
+
+
 

@@ -23,6 +23,6 @@ int CuentaPeliculas(nodoArbol* Raiz);
 nodoArbol * NMD (nodoArbol * nodo);
 nodoArbol * NMI (nodoArbol * nodo);
 nodoArbol * borrarNodoPelicula(nodoArbol * nodo, int id);
-
+//nodoArbol* borrarPeliculaArreglo (celda ada[], int validos, int id);
 
 #endif // ARBOL_H_INCLUDED

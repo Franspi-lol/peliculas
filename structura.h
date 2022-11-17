@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <strings.h>
-
+//#include "celda.h"
 
 typedef struct
 {
@@ -31,6 +31,8 @@ pelicula cargarPelicula();
 void listaGeneros();
 int elegirGenero();
 void mostrarPelicula(pelicula peli);
+void MostrarGenero(int genero);
+int retornarIDPeliculadesdeArchivo ();
 
 
 

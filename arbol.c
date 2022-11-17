@@ -202,3 +202,6 @@ nodoArbol * borrarNodoPelicula(nodoArbol * nodo, int id)
     }
     return nodo;
 }
+
+
+

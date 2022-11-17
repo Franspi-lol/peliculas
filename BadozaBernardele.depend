@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1667312937 source:c:\users\usuario\desktop\badozabernardele\arbol.c
+	"arbol.h"
+
+1667312677 source:c:\users\usuario\desktop\badozabernardele\main.c
+
+1667313424 c:\users\usuario\desktop\badozabernardele\arbol.h
+	"structura.h"
+
+1667314629 c:\users\usuario\desktop\badozabernardele\structura.h
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1667314807 source:c:\users\usuario\desktop\badozabernardele\structura.c
+	"structura.h"
+
+1668654183 source:c:\users\franc\desktop\tup\badozabernardele\arbol.c
+	"arbol.h"
+	"structura.h"
+
+1668654183 c:\users\franc\desktop\tup\badozabernardele\arbol.h
+	"structura.h"
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1668654725 c:\users\franc\desktop\tup\badozabernardele\structura.h
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1668655227 source:c:\users\franc\desktop\tup\badozabernardele\celda.c
+	"celda.h"
+
+1668655213 c:\users\franc\desktop\tup\badozabernardele\celda.h
+	"arbol.h"
+
+1668656842 source:c:\users\franc\desktop\tup\badozabernardele\listausuario.c
+	"listaUsuario.h"
+
+1668654535 source:c:\users\franc\desktop\tup\badozabernardele\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"structura.h"
+	"arbol.h"
+	"filapeli.h"
+	"celda.h"
+	"menu.h"
+
+1668656733 c:\users\franc\desktop\tup\badozabernardele\filapeli.h
+	"structura.h"
+
+1668656531 source:c:\users\franc\desktop\tup\badozabernardele\structura.c
+	"structura.h"
+	"arbol.h"
+
+1668656733 source:c:\users\franc\desktop\tup\badozabernardele\filapeli.c
+	"filapeli.h"
+
+1668654213 c:\users\franc\desktop\tup\badozabernardele\listausuario.h
+	"filapeli.h"
+	"arbol.h"
+	"celda.h"
+
+1668655686 source:c:\users\franc\desktop\tup\badozabernardele\menu.c
+	"menu.h"
+	"listaUsuario.h"
+	"filapeli.h"
+
+1668654340 c:\users\franc\desktop\tup\badozabernardele\menu.h
+	"celda.h"
+	"arbol.h"
+
