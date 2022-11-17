@@ -22,19 +22,20 @@ nodoFila* crearNodoFila(pelicula seleccionada)
 }
 
 
-void agregaraFila(filarepro* fila, pelicula agregar)
+filarepro agregaraFila(filarepro fila, pelicula agregar)
 {
     nodoFila* nuevo= crearNodoFila(agregar);
-    if (fila->cabecera==NULL)
+    if (fila.cabecera==NULL)
     {
-        fila->cabecera=nuevo;
-        fila->cola=nuevo;
+        fila.cabecera=nuevo;
+        fila.cola=nuevo;
     }
     else
     {
-        fila->cabecera=agregarFinalFila(fila->cabecera, nuevo);
-        fila->cola;
+        fila.cabecera=agregarFinalFila(fila.cabecera, nuevo);
+        fila.cola;
     }
+    return fila;
 }
 
 nodoFila* agregarFinalFila (nodoFila* lista, nodoFila* nuevonodo)
