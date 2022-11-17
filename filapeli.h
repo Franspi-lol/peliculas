@@ -19,7 +19,7 @@ typedef struct
 filarepro inicfilareproduccion();
 nodoFila* inicnodoFila ();
 nodoFila* crearNodoFila(pelicula seleccionada);
-void agregaraFila(filarepro* fila, pelicula agregar);
+filarepro agregaraFila(filarepro fila, pelicula agregar);
 nodoFila* agregarFinalFila (nodoFila* lista, nodoFila* nuevonodo);
 nodoFila* buscarUltimoFila (nodoFila* lista);
 
