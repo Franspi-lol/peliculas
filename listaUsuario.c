@@ -48,3 +48,32 @@ nodoUsuario* buscarUltimo (nodoUsuario* lista)
     return rta;
 }
 
+nodoUsuario* buscarUsuarioPorNombre (nodoUsuario* lista, char nombre[])
+{
+    nodoUsuario* rta=lista;
+    if (lista!=NULL)
+    {
+        while((rta!=NULL)&&(strcmp(rta->usu.nombre, nombre)!=0))
+        {
+            rta=rta->sig;
+        }
+    }
+    return rta;
+}
+
+
+nodoUsuario* cargarFilaAUSU (nodoUsuario* lista, char nombre[], nodoArbol* Raiz, celda ada[], int validos)
+{
+    //nodoUsuario* usuario = buscarUsuarioPorNombre(lista, nombre);
+
+}
+
+pelicula* elejirPelicula (nodoArbol* Raiz, celda ada[], int validos)
+{
+    int id=-1;
+    MostrarArregloPeliculas(ada, validos);
+    printf("\nSelecciona ID de la pelicula: ");
+    scanf("%d", &id);
+
+
+}
